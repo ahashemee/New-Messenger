@@ -20,6 +20,9 @@ class RegisterViewController: UIViewController {
         imageView.image = UIImage(systemName: "person")
         imageView.tintColor = .gray
         imageView.contentMode = .scaleAspectFit
+        imageView.layer.masksToBounds = true
+        imageView.layer.borderWidth = 1.5
+        imageView.layer.borderColor = UIColor.lightGray.cgColor
         return imageView
     }()
     /* The folloowing two private functions will define the text fields for the user's email and password. The password uses field.isSecureTextEntry = true, this means that asterix will pop up in place of the characters for the users passwords. */
@@ -129,7 +132,7 @@ class RegisterViewController: UIViewController {
         
     }
     @objc private func didTapChangeProfilePic() {
-        print("Change pic called")
+        presentPhotoActionSheet()
     }
     /* Along with adding the logo, this function also adds the email and password fields along with
      their dimesnions */
@@ -141,6 +144,9 @@ class RegisterViewController: UIViewController {
                                  y: 30,
                                  width: size,
                                  height: size)
+        
+        imageView.layer.cornerRadius = imageView.width/2.0
+        
         firstNameField.frame = CGRect(x: 30,
                                   y: imageView.bottom + 10,
                                   width: scrollView.width - 60,
@@ -207,7 +213,7 @@ class RegisterViewController: UIViewController {
 }
 
 
-extension RegisterViewController: UITextFieldDelegate {
+extension RegisterViewController: UITextFieldDelegate, UINavigationControllerDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         if textField == emailField {
@@ -217,5 +223,59 @@ extension RegisterViewController: UITextFieldDelegate {
             registerButtonTapped()
         }
         return true
+    }
+}
+
+extension RegisterViewController: UIImagePickerControllerDelegate{
+    
+    func presentPhotoActionSheet() {
+        let actionSheet = UIAlertController(title: "Profile Picture",
+                                            message: "How would you like to select a picture",
+                                            preferredStyle: .actionSheet)
+        actionSheet.addAction(UIAlertAction(title: "Cancel",
+                                            style: .cancel,
+                                            handler: nil))
+        actionSheet.addAction(UIAlertAction(title: "Take a Photo",
+                                            style: .default,
+                                            handler: { [weak self]_ in
+                                                self?.presentCamera()
+                                            }))
+
+        actionSheet.addAction(UIAlertAction(title: "Choose a photo",
+                                            style: .default,
+                                            handler: { [weak self]_ in
+                                                self?.presentPhotoLibrary()
+                                            }))
+    present(actionSheet, animated: true)
+    }
+    
+    func presentCamera() {
+        let vc = UIImagePickerController()
+        vc.sourceType = .camera
+        vc.delegate = self
+        vc.allowsEditing = true
+        present(vc, animated: true)
+    }
+    
+    func presentPhotoLibrary() {
+        let vc = UIImagePickerController()
+        vc.sourceType = .photoLibrary
+        vc.delegate = self
+        vc.allowsEditing = true
+        present(vc, animated: true)
+    }
+    
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        picker.dismiss(animated: true, completion: nil)
+        guard let selectedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage else{
+            return
+        }
+        self.imageView.image = selectedImage
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    
     }
 }
