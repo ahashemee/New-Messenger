@@ -4,7 +4,7 @@
 
 Licensed under the [MIT License](LICENSE).
 
----------
+--
 
 ## Deliverable 3.
 
@@ -18,7 +18,7 @@ Here is the [link](https://youtu.be/soYuD5fZYYE) to my YouTube video demonstrati
 2. I did meet this goal.
 4. I don't think there needs to be a change in anything. I am currently at a cruising pace to finish this project on time.
 
----------
+--
 
 ## Deliverable 2
 
