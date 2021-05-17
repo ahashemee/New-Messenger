@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2ABBA342645FD4B000F4F83 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = C2ABBA332645FD4B000F4F83 /* GoogleService-Info (1).plist */; };
+		C24E28322647EB380045E597 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C24E28312647EB380045E597 /* GoogleService-Info.plist */; };
 		C2E2B1FD2645D25700FAB689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2B1FC2645D25700FAB689 /* AppDelegate.swift */; };
 		C2E2B1FF2645D25700FAB689 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2B1FE2645D25700FAB689 /* SceneDelegate.swift */; };
 		C2E2B2012645D25700FAB689 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2B2002645D25700FAB689 /* ConversationsViewController.swift */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		9A6E9AD150369042E781FA40 /* Pods-Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.debug.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		BCD28D55C6333D6B1E7888D7 /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
-		C2ABBA332645FD4B000F4F83 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		C24E28312647EB380045E597 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2E2B1F92645D25700FAB689 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E2B1FC2645D25700FAB689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E2B1FE2645D25700FAB689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,13 +87,13 @@
 		C2E2B1FB2645D25700FAB689 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				C2ABBA332645FD4B000F4F83 /* GoogleService-Info (1).plist */,
 				C2E2B2142645D3F600FAB689 /* Resources */,
 				C2E2B2132645D3F000FAB689 /* ViewModels */,
 				C2E2B2122645D3EC00FAB689 /* Models */,
 				C2E2B2112645D3E800FAB689 /* Views */,
 				C2E2B2102645D3DF00FAB689 /* Controllers */,
 				C2E2B20A2645D25800FAB689 /* Info.plist */,
+				C24E28312647EB380045E597 /* GoogleService-Info.plist */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -230,10 +230,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24E28322647EB380045E597 /* GoogleService-Info.plist in Resources */,
 				C2E2B2092645D25800FAB689 /* LaunchScreen.storyboard in Resources */,
 				C2E2B2062645D25800FAB689 /* Assets.xcassets in Resources */,
 				C2E2B2042645D25700FAB689 /* Main.storyboard in Resources */,
-				C2ABBA342645FD4B000F4F83 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Hashemee.Messenger;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ma-el-H.";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,7 +468,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Hashemee.Messenger;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ma-el-H.";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
