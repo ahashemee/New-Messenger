@@ -125,10 +125,10 @@ class LoginViewController: UIViewController {
             alertUserLoginError()
             return
         }
-        
+        print("testing")
         // Firebase Log In will be established here
+
     }
-    
     func alertUserLoginError() {
         let alert = UIAlertController(title: "Whoops",
                                       message: "Please enter all information to log in", preferredStyle: .alert)
