@@ -2,6 +2,10 @@
 
 ###### Messenger is an iPhone only application, currently capable of running on ios 13.5 and is in its beta stages.
 
+## The Process
+
+##### If you'd like to watch a video documenting the process I went through to reach the point I am at now, please use the link here.
+
 ### Motivation
 
 ##### As a high school student who has been programming for a couple years, I felt that the the best method to enhance my learning in Computer Coding 2 would be to throw myself at a project I have no experience in. I was and still am not 100% familiar with XCode nor Swift, I'm still learning as I go and honestly, it's tough. The struggle of restarting my program multiple times frustrates me, but it motivates me twice as much. Learning about programming is something I will never get bored of.
@@ -14,6 +18,7 @@
 ## References
 
 ##### As much as I would like to say I learned Swift and how to use XCode on my own, I must say that I learned a lot from a guy called [iOS Academy](https://www.youtube.com/channel/UCnksRRifsSCGUZpQukUKAyg "iOS Academy's YouTube Account") on YouTube. His tutorials thuroughly assisted me in this journey and without him, I would not be where I am in my code. 
+
 
 ---
 
