@@ -4,7 +4,7 @@
 
 ## The Process
 
-##### **If you'd like to watch a video documenting the process I went through to reach the point I am at now, please use the link here.**
+##### **If you'd like to watch a video documenting the process I went through to reach the point I am at now, please use the link here. It's super in depth and really interesting, I suggest you take a look at it :)**
 
 ### Motivation
 
