@@ -8,9 +8,9 @@
 
 ### Citation for Images used in video
 
-#### Kukhnavets, Pavel. “Positive and Negative Effects of Procrastination at Work.” Hygger, 4 Mar. 2021, hygger.io/blog/positive-negative-effects-procrastination-work/. 
-OpenClipart-Vectors OpenClipart-Vectors. Pixabay, 31 Mar. 2016, pixabay.com/vectors/cluttered-desk-dirty-education-1295494/. 
-OpenIcons. Pixabay, 2 Apr. 2013, pixabay.com/vectors/skiing-ski-run-downhill-speed-99065/. 
+##### Kukhnavets, Pavel. “Positive and Negative Effects of Procrastination at Work.” Hygger, 4 Mar. 2021, hygger.io/blog/positive-negative-effects-procrastination-work/. 
+##### OpenClipart-Vectors OpenClipart-Vectors. Pixabay, 31 Mar. 2016, pixabay.com/vectors/cluttered-desk-dirty-education-1295494/. 
+##### OpenIcons. Pixabay, 2 Apr. 2013, pixabay.com/vectors/skiing-ski-run-downhill-speed-99065/. 
 
 ### Motivation
 
