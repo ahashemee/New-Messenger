@@ -4,7 +4,13 @@
 
 ## The Process
 
-##### **If you'd like to watch a video documenting the process I went through to reach the point I am at now, please use the [link here] (https://youtu.be/R513sGsa6B4). It's super in depth and really interesting, I suggest you take a look at it :)**
+##### **If you'd like to watch a video documenting the process I went through to reach the point I am at now, please use the [link here](https://youtu.be/R513sGsa6B4). It's super in depth and really interesting, I suggest you take a look at it :)**
+
+### Citation for Images used in video
+
+#### Kukhnavets, Pavel. “Positive and Negative Effects of Procrastination at Work.” Hygger, 4 Mar. 2021, hygger.io/blog/positive-negative-effects-procrastination-work/. 
+OpenClipart-Vectors OpenClipart-Vectors. Pixabay, 31 Mar. 2016, pixabay.com/vectors/cluttered-desk-dirty-education-1295494/. 
+OpenIcons. Pixabay, 2 Apr. 2013, pixabay.com/vectors/skiing-ski-run-downhill-speed-99065/. 
 
 ### Motivation
 
